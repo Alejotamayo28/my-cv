@@ -69,14 +69,61 @@ export function Resume() {
                 <div className="font-serif font-medium text-blue-600 mb-2">
                   {exp.company} • {exp.location}
                 </div>
-                <ul className="fons-sans-serif list-disc pl-5 space-y-2 text-sm text-gray-700">
+                {exp.tags && exp.tags.length > 0 && (
+                  <div className="flex flex-wrap gap-1 mb-3">
+                    {exp.tags.map((tag, tagIndex) => (
+                      <span key={tagIndex} className="bg-gray-100 text-gray-700 text-xs px-2 py-1 rounded">
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                )}
+                <ul className="font-sans-serif list-disc pl-5 space-y-2 text-sm text-gray-700">
                   {exp.achievements.map((achievement, i) => (
                     <li key={i} className="leading-snug">{achievement}</li>
                   ))}
                 </ul>
+                {exp.repoLink && (
+                  <div className="mt-2">
+                    <a
+                      href={exp.repoLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm text-blue-600 hover:text-blue-800 flex items-center gap-1"
+                    >
+                      <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                      </svg>
+                      Ver código en GitHub
+                    </a>
+                  </div>
+                )}
+                {exp.linkedinLink && (
+                  <a
+                    href={exp.linkedinLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-blue-600 hover:text-blue-800 flex items-center gap-1"
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2 9h4v12H2z" />
+                      <circle cx="4" cy="4" r="2" strokeWidth={2} />
+                    </svg>
+                    Ver en LinkedIn
+                  </a>
+                )}
               </div>
             ))}
           </div>
+
+
+
+
+
+
+
+
         </section>
 
         {/* Sección de Educación */}

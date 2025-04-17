@@ -9,19 +9,22 @@ export const cvData: CvData = {
     location: "Palmira, Colombia",
   },
   summary:
-    "Desarrollador Backend con experiencia en automatización, bots conversacionales y despliegue de infraestructura en la nube. Cuento con sólidos conocimientos en Node.js, TypeScript, PostgreSQL, Docker y AWS. He trabajado en proyectos personales enfocados en la eficiencia backend, la orquestación de contenedores y la integración de APIs externas como Telegram. Además, tengo experiencia en el diseño y consumo de APIs RESTful, aplicando buenas prácticas de arquitectura y seguridad. Me apasiona crear soluciones funcionales, escalables y bien estructuradas. Estudiante de Tecnología en Desarrollo de Software en la Universidad del Valle.",
+    "Desarrollador Backend con sólida formación académica y proyectos prácticos en automatización, bots conversacionales y despliegue de infraestructura en la nube. Domino tecnologías como Node.js, TypeScript, PostgreSQL, Docker y AWS. He implementado soluciones funcionales en proyectos personales que incluyen optimización de rendimiento backend, orquestación de contenedores y desarrollo de una API para bots de Telegram que atiende más de 100 consultas diarias. Aplico buenas prácticas en arquitectura de software, seguridad y diseño de APIs RESTful. Con fuerte capacidad de aprendizaje autónomo y resolución de problemas complejos. Actualmente estudiante de Tecnología en Desarrollo de Software en la Universidad del Valle, comprometido con aportar valor mientras continúo desarrollando mis habilidades técnicas.",
 
   experience: [
     {
       role: "Desarrollador Backend - Proyecto Personal",
       period: "2024 - Actualidad",
-      company: "Despliegue Automatizado con Telegram, Docker y AWS",
+      company: "Plataformad de Despliegue Automatizado",
       location: "Remoto",
+      tags: ["Typescript", "Node.js", "AWS", "Docker", "Cloudflare Workers", "Telegram API"],
       achievements: [
-        "Construcción de un bot alojado en Cloudflare Workers que orquesta el despliegue de imágenes Docker en instancias EC2.",
-        "Automatización completa de la instalación de Docker, ejecución de contenedores y monitoreo mediante CloudWatch.",
-        "Integración con DockerHub para la gestión personalizada de imágenes por usuario y visualización del estado de las instancias activas.",
+        "Desarrollé un bot con Cloudflare Workers que automatiza el despliegue de imágenes Docker en instancias EC2, reduciendo el tiempo de implementación de 25 a 3 minutos por servidor.",
+        "Implementé un sistema completo de automatización para instalación de Docker, ejecución de contenedores y monitoreo con CloudWatch, eliminando errores manuales frecuentes en el proceso de despliegue.",
+        "Diseñé una integración con DockerHub que permite a cada usuario gestionar sus propias imágenes y visualizar el estado de sus instancias en tiempo real, mejorando la experiencia de usuario y transparencia del sistema.",
       ],
+      repoLink: "https://github.com/Alejotamayo28?tab=repositories",
+      linkedinLink: "https://www.linkedin.com/in/alejandro-vergara-tamayo-1b3aa1263/"
     },
     {
       role: "Desarrollador Backend - Proyecto Personal",

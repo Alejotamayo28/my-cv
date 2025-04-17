@@ -12,7 +12,10 @@ export interface CvData {
     period: string;
     company: string;
     location: string;
+    tags?: string[],
     achievements: string[];
+    repoLink?: string,
+    linkedinLink?:string
   }>;
   education: Array<{
     degree: string;
