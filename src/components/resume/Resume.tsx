@@ -2,7 +2,7 @@
 import { Card } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { cvData } from "@/data/cv.data";
-import { Mail, MapPin, Phone, GraduationCap, Briefcase, Code, Cpu } from "lucide-react";
+import { Mail, MapPin, Phone, GraduationCap, Briefcase, Code, Cpu, Package, Terminal, Database, Cloud, PenTool } from "lucide-react";
 import { useRef } from "react";
 import "@/styles/global.css"
 
@@ -155,16 +155,129 @@ export function Resume() {
           </h2>
           <Separator className="mb-3 bg-gray-200" />
 
-          <div className="flex flex-wrap gap-3">
-            {cvData.skills.map((skill) => (
-              <div
-                key={skill}
-                className="font-sans-serif bg-blue-50 px-3 py-1 rounded-full text-sm text-blue-800 flex items-center"
-              >
-                <Cpu className="h-3 w-3 mr-1" />
-                {skill}
-              </div>
-            ))}
+          {/* Lenguajes */}
+          <div className="mb-5">
+            <h3 className="text-md font-serif text-blue-600 mb-2 flex items-center">
+              <Terminal className="h-4 w-4 mr-1" />
+              Lenguajes de Programación
+            </h3>
+            <div className="flex flex-wrap gap-2">
+              {cvData.skills.languages.map((skill, index) => (
+                <div key={index} className="bg-white border border-gray-200 rounded-lg px-3 py-2 shadow-sm">
+                  <div className="font-medium text-gray-800">{skill.name}</div>
+                  <div className="mt-1 bg-gray-100 rounded-full h-2">
+                    <div
+                      className="bg-blue-500 h-2 rounded-full"
+                      style={{
+                        width: skill.level === "Avanzado" ? "90%" :
+                          skill.level === "Intermedio" ? "60%" : "30%"
+                      }}
+                    ></div>
+                  </div>
+                  <div className="text-xs text-gray-500 mt-1 text-right">{skill.level}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Frameworks */}
+          <div className="mb-5">
+            <h3 className="text-md font-serif text-blue-600 mb-2 flex items-center">
+              <Package className="h-4 w-4 mr-1" />
+              Frameworks y Librerías
+            </h3>
+            <div className="flex flex-wrap gap-2">
+              {cvData.skills.frameworks.map((skill, index) => (
+                <div key={index} className="bg-white border border-gray-200 rounded-lg px-3 py-2 shadow-sm">
+                  <div className="font-medium text-gray-800">{skill.name}</div>
+                  <div className="mt-1 bg-gray-100 rounded-full h-2">
+                    <div
+                      className="bg-blue-500 h-2 rounded-full"
+                      style={{
+                        width: skill.level === "Avanzado" ? "90%" :
+                          skill.level === "Intermedio" ? "60%" : "30%"
+                      }}
+                    ></div>
+                  </div>
+                  <div className="text-xs text-gray-500 mt-1 text-right">{skill.level}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Bases de datos */}
+          <div className="mb-5">
+            <h3 className="text-md font-serif text-blue-600 mb-2 flex items-center">
+              <Database className="h-4 w-4 mr-1" />
+              Bases de Datos
+            </h3>
+            <div className="flex flex-wrap gap-2">
+              {cvData.skills.databases.map((skill, index) => (
+                <div key={index} className="bg-white border border-gray-200 rounded-lg px-3 py-2 shadow-sm">
+                  <div className="font-medium text-gray-800">{skill.name}</div>
+                  <div className="mt-1 bg-gray-100 rounded-full h-2">
+                    <div
+                      className="bg-blue-500 h-2 rounded-full"
+                      style={{
+                        width: skill.level === "Avanzado" ? "90%" :
+                          skill.level === "Intermedio" ? "60%" : "30%"
+                      }}
+                    ></div>
+                  </div>
+                  <div className="text-xs text-gray-500 mt-1 text-right">{skill.level}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* DevOps */}
+          <div className="mb-5">
+            <h3 className="text-md font-serif text-blue-600 mb-2 flex items-center">
+              <Cloud className="h-4 w-4 mr-1" />
+              DevOps y Cloud
+            </h3>
+            <div className="flex flex-wrap gap-2">
+              {cvData.skills.devOps.map((skill, index) => (
+                <div key={index} className="bg-white border border-gray-200 rounded-lg px-3 py-2 shadow-sm">
+                  <div className="font-medium text-gray-800">{skill.name}</div>
+                  <div className="mt-1 bg-gray-100 rounded-full h-2">
+                    <div
+                      className="bg-blue-500 h-2 rounded-full"
+                      style={{
+                        width: skill.level === "Avanzado" ? "90%" :
+                          skill.level === "Intermedio" ? "60%" : "30%"
+                      }}
+                    ></div>
+                  </div>
+                  <div className="text-xs text-gray-500 mt-1 text-right">{skill.level}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Herramientas */}
+          <div className="mb-5">
+            <h3 className="text-md font-serif text-blue-600 mb-2 flex items-center">
+              <PenTool className="h-4 w-4 mr-1" />
+              Herramientas
+            </h3>
+            <div className="flex flex-wrap gap-2">
+              {cvData.skills.tools.map((skill, index) => (
+                <div key={index} className="bg-white border border-gray-200 rounded-lg px-3 py-2 shadow-sm">
+                  <div className="font-medium text-gray-800">{skill.name}</div>
+                  <div className="mt-1 bg-gray-100 rounded-full h-2">
+                    <div
+                      className="bg-blue-500 h-2 rounded-full"
+                      style={{
+                        width: skill.level === "Avanzado" ? "90%" :
+                          skill.level === "Intermedio" ? "60%" : "30%"
+                      }}
+                    ></div>
+                  </div>
+                  <div className="text-xs text-gray-500 mt-1 text-right">{skill.level}</div>
+                </div>
+              ))}
+            </div>
           </div>
         </section>
       </Card>

@@ -15,12 +15,33 @@ export interface CvData {
     tags?: string[],
     achievements: string[];
     repoLink?: string,
-    linkedinLink?:string
+    linkedinLink?: string
   }>;
   education: Array<{
     degree: string;
     period: string;
     institution: string;
   }>;
-  skills: string[];
+  skills: {
+    languages: Array<{
+      name: string,
+      level: string
+    }>,
+    frameworks: Array<{
+      name: string,
+      level: string
+    }>,
+    databases: Array<{
+      name: string,
+      level: string
+    }>,
+    devOps: Array<{
+      name: string,
+      level: string
+    }>
+    tools: Array<{
+      name: string,
+      level: string
+    }>,
+  };
 }

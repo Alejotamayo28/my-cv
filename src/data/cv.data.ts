@@ -15,7 +15,7 @@ export const cvData: CvData = {
     {
       role: "Desarrollador Backend - Proyecto Personal",
       period: "2024 - Actualidad",
-      company: "Plataformad de Despliegue Automatizado",
+      company: "Plataforma de Despliegue Automatizado",
       location: "Remoto",
       tags: ["Typescript", "Node.js", "AWS", "Docker", "Cloudflare Workers", "Telegram API"],
       achievements: [
@@ -29,27 +29,32 @@ export const cvData: CvData = {
     {
       role: "Desarrollador Backend - Proyecto Personal",
       period: "2024",
-      company: "Asistente de gimnasio con Telegram Bot",
+      company: "FitTracker: Asistente de Gimnasio",
       location: "Remoto",
+      tags: ["Typescript", "PostgreSQL", "Node.js", "Docker", "Telegram API"],
       achievements: [
         "Diseño e implementación de un bot de Telegram que permite registrar, consultar y analizar el historial de entrenamientos de los usuarios.",
         "Manejo de autenticación, sesiones y relaciones familiares al estilo Netflix para compartir progresos.",
         "Base de datos PostgreSQL optimizada con consultas dinámicas por intervalos (diarios, semanales, mensuales, acumulados).",
       ],
+      repoLink: "https://github.com/Alejotamayo28?tab=repositories",
+      linkedinLink: "https://www.linkedin.com/in/alejandro-vergara-tamayo-1b3aa1263/"
     },
     {
       role: "Desarrollador Backend - Proyecto Personal",
       period: "2023",
-      company: "API e-commerce para supermercado",
+      company: "MiniMarket API",
       location: "Remoto",
+      tags: ["Typescript", "Express.js", "Node.js", "JWT", "PostgreSQL", "RESTful API"],
       achievements: [
-        "Desarrollo de una API RESTful con Express.js para entender los fundamentos de la comunicación cliente-servidor.",
-        "Implementación de lógica de negocio, autenticación con JWT, middlewares personalizados y consultas SQL.",
+        "Desarrollé una API RESTful completa para un e-commerce de supermercado como proyecto de aprendizaje, implementando los fundamentos de arquitectura cliente-servidor y mejores prácticas de la industria.",
+        "Construí un sistema de autenticación y autorización con JWT, roles de usuario y middlewares personalizados, garantizando la seguridad de los endpoints y datos sensibles.",
         "Fundamentos sólidos en arquitectura REST, seguridad y estructuración de rutas.",
       ],
+      repoLink: "https://github.com/Alejotamayo28?tab=repositories",
+      linkedinLink: "https://www.linkedin.com/in/alejandro-vergara-tamayo-1b3aa1263/"
     },
   ],
-
   education: [
     {
       degree: "Tecnología en Desarrollo de Software",
@@ -67,22 +72,29 @@ export const cvData: CvData = {
       institution: "English Now Institute",
     }
   ],
-
-  skills: [
-    "Node.js",
-    "TypeScript",
-    "PostgreSQL",
-    "Docker",
-    "AWS EC2",
-    "Telegram Bot API",
-    "Express.js",
-    "Cloudflare Workers",
-    "AWS S3",
-    "Git",
-    "SQL",
-    "Arquitectura REST",
-    "AWS CloudWatch",
-    "Autenticación JWT",
-  ],
+  skills: {
+    languages: [
+      { name: "TypeScript", level: "Avanzado" },
+      { name: "JavaScript", level: "Intermedio" },
+      { name: "SQL", level: "Intermedio" },
+    ],
+    frameworks: [
+      { name: "Node.js", level: "Avanzado" },
+      { name: "Express.js", level: "Intermedio" },
+    ],
+    databases: [
+      { name: "PostgreSQL", level: "Intermedio" },
+      { name: "Oracle", level: "Básico" },
+    ],
+    devOps: [
+      { name: "Docker", level: "Intermedio" },
+      { name: "AWS (EC2, CloudWatch, S3)", level: "Intermedio" },
+      { name: "Cloudflare Workers", level: "Basico" },
+    ],
+    tools: [
+      { name: "Git", level: "Avanzado" },
+      { name: "Postman", level: "Intermedio" },
+    ],
+  }
 };
 
