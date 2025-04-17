@@ -53,7 +53,7 @@ export function Resume() {
         <section className="mb-8">
           <h2 className="text-xl font-semibold mb-2 text-gray-800 flex items-center gap-2">
             <Briefcase className="h-5 w-5 text-blue-600" />
-            Experiencia Laboral
+           Proyectos 
           </h2>
           <Separator className="mb-3 bg-gray-200" />
 
