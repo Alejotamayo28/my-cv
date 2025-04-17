@@ -2,7 +2,7 @@
 import { Card } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { cvData } from "@/data/cv.data";
-import { Mail, MapPin, Phone, GraduationCap, Briefcase, Code, Cpu, Package, Terminal, Database, Cloud, PenTool } from "lucide-react";
+import { Mail, MapPin, Phone, GraduationCap, Briefcase, Code, Package, Terminal, Database, Cloud, PenTool } from "lucide-react";
 import { useRef } from "react";
 import "@/styles/global.css"
 
