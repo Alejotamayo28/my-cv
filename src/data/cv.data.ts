@@ -23,8 +23,7 @@ export const cvData: CvData = {
         "Implementé un sistema completo de automatización para instalación de Docker, ejecución de contenedores y monitoreo con CloudWatch, eliminando errores manuales frecuentes en el proceso de despliegue.",
         "Diseñé una integración con DockerHub que permite a cada usuario gestionar sus propias imágenes y visualizar el estado de sus instancias en tiempo real, mejorando la experiencia de usuario y transparencia del sistema.",
       ],
-      repoLink: "https://github.com/Alejotamayo28?tab=repositories",
-      linkedinLink: "https://www.linkedin.com/in/alejandro-vergara-tamayo-1b3aa1263/"
+      linkedinLink: "https://www.linkedin.com/in/alejandro-vergara-tamayo-/"
     },
     {
       role: "Desarrollador Backend - Proyecto Personal",
@@ -37,8 +36,7 @@ export const cvData: CvData = {
         "Manejo de autenticación, sesiones y relaciones familiares al estilo Netflix para compartir progresos.",
         "Base de datos PostgreSQL optimizada con consultas dinámicas por intervalos (diarios, semanales, mensuales, acumulados).",
       ],
-      repoLink: "https://github.com/Alejotamayo28?tab=repositories",
-      linkedinLink: "https://www.linkedin.com/in/alejandro-vergara-tamayo-1b3aa1263/"
+      repoLink: "https://github.com/Alejotamayo28/fit-tracker-bot",
     },
     {
       role: "Desarrollador Backend - Proyecto Personal",
@@ -51,8 +49,7 @@ export const cvData: CvData = {
         "Construí un sistema de autenticación y autorización con JWT, roles de usuario y middlewares personalizados, garantizando la seguridad de los endpoints y datos sensibles.",
         "Fundamentos sólidos en arquitectura REST, seguridad y estructuración de rutas.",
       ],
-      repoLink: "https://github.com/Alejotamayo28?tab=repositories",
-      linkedinLink: "https://www.linkedin.com/in/alejandro-vergara-tamayo-1b3aa1263/"
+      repoLink: "https://github.com/Alejotamayo28/minimarket-api",
     },
   ],
   education: [
@@ -79,7 +76,7 @@ export const cvData: CvData = {
       { name: "SQL", level: "Intermedio" },
     ],
     frameworks: [
-      { name: "Node.js", level: "Avanzado" },
+      { name: "Node.js", level: "Intermedio" },
       { name: "Express.js", level: "Intermedio" },
     ],
     databases: [
@@ -89,11 +86,12 @@ export const cvData: CvData = {
     devOps: [
       { name: "Docker", level: "Intermedio" },
       { name: "AWS (EC2, CloudWatch, S3)", level: "Intermedio" },
-      { name: "Cloudflare Workers", level: "Basico" },
+      { name: "Cloudflare (Workers, Pages)", level: "Intermedio" },
     ],
     tools: [
       { name: "Git", level: "Avanzado" },
       { name: "Postman", level: "Intermedio" },
+      { name: "Insomnia", level: "Intermedio" },
     ],
   }
 };
