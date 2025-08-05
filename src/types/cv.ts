@@ -23,11 +23,23 @@ export interface CvData {
     institution: string;
   }>;
   skills: {
+    cloud: Array<{
+      name: string,
+      level: string
+    }>,
     languages: Array<{
       name: string,
       level: string
     }>,
-    frameworks: Array<{
+    backend: Array<{
+      name: string,
+      level: string
+    }>,
+    documentation: Array<{
+      name: string,
+      level: string
+    }>,
+    integrations: Array<{
       name: string,
       level: string
     }>,
@@ -35,10 +47,6 @@ export interface CvData {
       name: string,
       level: string
     }>,
-    devOps: Array<{
-      name: string,
-      level: string
-    }>
     tools: Array<{
       name: string,
       level: string
