@@ -9,8 +9,7 @@ export const cvData: CvData = {
     location: "Palmira, Colombia",
   },
   summary:
-    `Desarrollador Backend especializado en arquitecturas escalables y sistemas en producción. Con experiencia comprobada liderando implementaciones técnicas críticas en sistemas de gestión empresarial, incluyendo migración a microservicios con GRPC, optimización de bases de datos PostgreSQL, y automatización de infraestructura AWS que redujo tiempos de despliegue en un 85%. 
-    Domino el stack completo: Node.js, TypeScript, Docker, AWS, y bases de datos relacionales.Mi enfoque combina resolución de problemas técnicos complejos con impacto directo en producción, contribuyendo tanto al desarrollo backend como a decisiones de arquitectura.Actualmente estudiando Tecnología en Desarrollo de Software en Universidad del Valle.`,
+    "Desarrollador Backend especializado en arquitecturas escalables y sistemas en producción. Con experiencia comprobada liderando implementaciones técnicas críticas en sistemas de gestión empresarial, incluyendo migración a microservicios con GRPC, optimización de bases de datos PostgreSQL, y automatización de infraestructura AWS que redujo tiempos de despliegue en un 85%.\n\n Domino el stack completo: Node.js, TypeScript, Docker, AWS, y bases de datos relacionales.Mi enfoque combina resolución de problemas técnicos complejos con impacto directo en producción, contribuyendo tanto al desarrollo backend como a decisiones de arquitectura.Actualmente estudiando Tecnología en Desarrollo de Software en Universidad del Valle.",
 
   experience: [
     {
@@ -80,22 +79,26 @@ export const cvData: CvData = {
     languages: [
       { name: "TypeScript", level: "Avanzado" },
       { name: "JavaScript", level: "Intermedio" },
-      { name: "SQL", level: "Intermedio" },
+      { name: "SQL", level: "Avanzado" },
     ],
     frameworks: [
       { name: "Node.js", level: "Intermedio" },
       { name: "Express.js", level: "Intermedio" },
+      { name: "Express.js", level: "Intermedio" },
     ],
     databases: [
       { name: "PostgreSQL", level: "Intermedio" },
-      { name: "Oracle", level: "Básico" },
+      { name: "Supabase", level: "Intermedio" },
+      { name: "Database Desing", level: "Intermedio" },
     ],
     devOps: [
       { name: "Docker", level: "Intermedio" },
       { name: "AWS (EC2, CloudWatch, S3)", level: "Intermedio" },
-      { name: "Cloudflare (Workers, Pages)", level: "Intermedio" },
+      { name: "Cloudflare (Workers, Pages, R2)", level: "Intermedio" },
+      { name: "Infrastructure Automation", level: "Intermedio" }
     ],
     tools: [
+      { name: "Microservicios", level: "Avanzado" },
       { name: "Git", level: "Avanzado" },
       { name: "TSOA", level: "Intermedio" },
       { name: "GRPC", level: "Intermedio" },
