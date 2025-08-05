@@ -9,7 +9,8 @@ export const cvData: CvData = {
     location: "Palmira, Colombia",
   },
   summary:
-    "Desarrollador Backend con sólida formación académica y proyectos prácticos en automatización, bots conversacionales y despliegue de infraestructura en la nube. Domino tecnologías como Node.js, TypeScript, PostgreSQL, Docker y AWS. He implementado soluciones funcionales en proyectos personales que incluyen optimización de rendimiento backend, orquestación de contenedores y desarrollo de una API para bots de Telegram que atiende más de 100 consultas diarias. Aplico buenas prácticas en arquitectura de software, seguridad y diseño de APIs RESTful. Con fuerte capacidad de aprendizaje autónomo y resolución de problemas complejos. Actualmente estudiante de Tecnología en Desarrollo de Software en la Universidad del Valle, comprometido con aportar valor mientras continúo desarrollando mis habilidades técnicas.",
+    `Desarrollador Backend especializado en arquitecturas escalables y sistemas en producción. Con experiencia comprobada liderando implementaciones técnicas críticas en sistemas de gestión empresarial, incluyendo migración a microservicios con GRPC, optimización de bases de datos PostgreSQL, y automatización de infraestructura AWS que redujo tiempos de despliegue en un 85%. 
+    Domino el stack completo: Node.js, TypeScript, Docker, AWS, y bases de datos relacionales.Mi enfoque combina resolución de problemas técnicos complejos con impacto directo en producción, contribuyendo tanto al desarrollo backend como a decisiones de arquitectura.Actualmente estudiando Tecnología en Desarrollo de Software en Universidad del Valle.`,
 
   experience: [
     {
@@ -96,6 +97,8 @@ export const cvData: CvData = {
     ],
     tools: [
       { name: "Git", level: "Avanzado" },
+      { name: "TSOA", level: "Intermedio" },
+      { name: "GRPC", level: "Intermedio" },
       { name: "Postman", level: "Intermedio" },
       { name: "Insomnia", level: "Intermedio" },
     ],
