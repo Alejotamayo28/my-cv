@@ -13,8 +13,27 @@ export const cvData: CvData = {
 
   experience: [
     {
+      role: "Desarrollador Backend",
+      period: "2025 - Actualidad",
+      company: "Sistema de Gestión de Restaurantes (startup en crecimiento)",
+      location: "Remoto",
+      tags: [
+        "TypeScript", "Node.js", "Express", "Tsoa", "PostgreSQL", "Supabase", "AWS", "VPS", "Docker", "Cloudflare", "GRPC", "Swagger", "Microservicios"
+      ],
+      achievements: [
+        "Diseñé el modelo de datos relacional completo para productos, opciones y elecciones (choices), permitiendo a cada restaurante personalizar completamente su menú por tienda.",
+        "Implementé comunicación entre microservicios usando GRPC, mejorando la eficiencia y mantenibilidad del sistema distribuido.",
+        "Introduje y configuré TSOA para documentación automática con Swagger, facilitando la validación de entradas y pruebas locales con frontend.",
+        "Diseñé el sistema de subida de archivos binarios desde frontend hacia R2 Object Storage, reemplazando un flujo basado en FormData que generaba errores frecuentes.",
+        "Creé migraciones SQL, relaciones complejas y consultas optimizadas para mejorar el rendimiento de lectura/escritura en PostgreSQL y Supabase.",
+        "Participé en la implementación de OmniPago, integrando MercadoPago y soportando flujos alternos como pagos por WhatsApp con Nequi.",
+        "Mantuve código heredado, resolví conflictos de diseño, y adapté clases antiguas para soportar nuevas funcionalidades conforme el sistema crece.",
+        "Tomo decisiones técnicas con impacto directo en producción, colaborando en tareas de backend, DevOps, documentación, pruebas y diseño de APIs."
+      ]
+    },
+    {
       role: "Desarrollador Backend - Proyecto Personal",
-      period: "2024 - Actualidad",
+      period: "2024",
       company: "Plataforma de Despliegue Automatizado",
       location: "Remoto",
       tags: ["Typescript", "Node.js", "AWS", "Docker", "Cloudflare Workers", "Telegram API"],
@@ -37,20 +56,7 @@ export const cvData: CvData = {
         "Base de datos PostgreSQL optimizada con consultas dinámicas por intervalos (diarios, semanales, mensuales, acumulados).",
       ],
       repoLink: "https://github.com/Alejotamayo28/fit-tracker-bot",
-    },
-    {
-      role: "Desarrollador Backend - Proyecto Personal",
-      period: "2023",
-      company: "MiniMarket API",
-      location: "Remoto",
-      tags: ["Typescript", "Express.js", "Node.js", "JWT", "PostgreSQL", "RESTful API"],
-      achievements: [
-        "Desarrollé una API RESTful completa para un e-commerce de supermercado como proyecto de aprendizaje, implementando los fundamentos de arquitectura cliente-servidor y mejores prácticas de la industria.",
-        "Construí un sistema de autenticación y autorización con JWT, roles de usuario y middlewares personalizados, garantizando la seguridad de los endpoints y datos sensibles.",
-        "Fundamentos sólidos en arquitectura REST, seguridad y estructuración de rutas.",
-      ],
-      repoLink: "https://github.com/Alejotamayo28/minimarket-api",
-    },
+    }
   ],
   education: [
     {
