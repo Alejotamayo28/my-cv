@@ -81,30 +81,41 @@ export const cvData: CvData = {
       { name: "JavaScript", level: "Intermedio" },
       { name: "SQL", level: "Avanzado" },
     ],
-    frameworks: [
-      { name: "Node.js", level: "Intermedio" },
+    backend: [
+      { name: "Node.js", level: "Avanzado" },
       { name: "Express.js", level: "Intermedio" },
-      { name: "Express.js", level: "Intermedio" },
+      { name: "GRPC", level: "Intermedio" },
+      { name: "Microservicios", level: "Avanzado" },
+      { name: "API Design", level: "Intermedio" },
     ],
     databases: [
-      { name: "PostgreSQL", level: "Intermedio" },
+      { name: "PostgreSQL", level: "Avanzado" },
       { name: "Supabase", level: "Intermedio" },
-      { name: "Database Desing", level: "Intermedio" },
+      { name: "Database Design", level: "Intermedio" },
+      { name: "Oracle", level: "Básico" },
     ],
-    devOps: [
+    cloud: [
+      { name: "AWS (EC2, S3, CloudWatch)", level: "Intermedio" },
       { name: "Docker", level: "Intermedio" },
-      { name: "AWS (EC2, CloudWatch, S3)", level: "Intermedio" },
-      { name: "Cloudflare (Workers, Pages, R2)", level: "Intermedio" },
-      { name: "Infrastructure Automation", level: "Intermedio" }
+      { name: "Cloudflare (Workers, R2)", level: "Intermedio" },
+      { name: "VPS Management", level: "Intermedio" },
+      { name: "Infrastructure Automation", level: "Intermedio" },
+    ],
+    documentation: [
+      { name: "TSOA/Swagger", level: "Avanzado" },
+      { name: "API Documentation", level: "Avanzado" },
+      { name: "Technical Writing", level: "Intermedio" },
     ],
     tools: [
-      { name: "Microservicios", level: "Avanzado" },
       { name: "Git", level: "Avanzado" },
-      { name: "TSOA", level: "Intermedio" },
-      { name: "GRPC", level: "Intermedio" },
       { name: "Postman", level: "Intermedio" },
       { name: "Insomnia", level: "Intermedio" },
     ],
+    integrations: [
+      { name: "Payment Gateways", level: "Básico" },
+      { name: "MercadoPago API", level: "Básico" },
+      { name: "Telegram API", level: "Intermedio" },
+    ]
   }
 };
 
