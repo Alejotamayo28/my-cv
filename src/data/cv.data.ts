@@ -6,7 +6,7 @@ export const cvData: CvData = {
   contact: {
     email: "alejandropucca0@gmail.com",
     phone: "+57 316 5087855",
-    location: "Palmira, Colombia",
+    location: "Cali, Colombia",
   },
   summary:
     "Desarrollador Backend especializado en arquitecturas escalables y sistemas en producción. Con experiencia comprobada liderando implementaciones técnicas críticas en sistemas de gestión empresarial, incluyendo migración a microservicios con GRPC, automatización de infraestructura en la nube y optimización de bases de datos relacionales. Domino el stack completo: Node.js, TypeScript, Docker, AWS, y PostgreSQL. Poseo alta versatilidad en SQL, desde diseño de esquemas eficientes hasta consultas complejas optimizadas. Mi enfoque combina resolución de problemas técnicos complejos con impacto directo en producción, contribuyendo tanto al desarrollo backend como a decisiones de arquitectura. Actualmente estudiando Tecnología en Desarrollo de Software en Universidad del Valle.",
@@ -38,7 +38,7 @@ export const cvData: CvData = {
       location: "Remoto",
       tags: ["Typescript", "Node.js", "AWS", "Docker", "Cloudflare Workers", "Telegram API"],
       achievements: [
-        "Desarrollé un bot con Cloudflare Workers que automatiza el despliegue de imágenes Docker en instancias EC2, reduciendo el tiempo de implementación de 25 a 3 minutos por servidor.",
+        "Desarrollé un bot con Cloudflare Workers que automatiza el despliegue de imágenes Docker en instancias EC2, reduciendo el tiempo de implementación.",
         "Implementé un sistema completo de automatización para instalación de Docker, ejecución de contenedores y monitoreo con CloudWatch, eliminando errores manuales frecuentes en el proceso de despliegue.",
         "Diseñé una integración con DockerHub que permite a cada usuario gestionar sus propias imágenes y visualizar el estado de sus instancias en tiempo real, mejorando la experiencia de usuario y transparencia del sistema.",
       ],
