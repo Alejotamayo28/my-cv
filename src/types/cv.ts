@@ -1,3 +1,5 @@
+import { LucideIcon } from "lucide-react";
+
 export interface CvData {
   name: string;
   title: string;
@@ -52,4 +54,35 @@ export interface CvData {
       level: string
     }>,
   };
+}
+
+
+export interface Skill {
+  name: string;
+  level: string;
+}
+
+export interface Experience {
+  role: string;
+  period: string;
+  company: string;
+  location: string;
+  tags?: string[];
+  achievements: string[];
+  repoLink?: string;
+  linkedinLink?: string;
+}
+
+export interface SkillCardProps {
+  skill: Skill;
+}
+
+export interface SkillSectionProps {
+  title: string;
+  icon: LucideIcon;
+  skills: Skill[];
+}
+
+export interface ExperienceCardProps {
+  exp: Experience;
 }

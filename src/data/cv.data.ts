@@ -9,7 +9,7 @@ export const cvData: CvData = {
     location: "Palmira, Colombia",
   },
   summary:
-    "Desarrollador Backend especializado en arquitecturas escalables y sistemas en producción. Con experiencia comprobada liderando implementaciones técnicas críticas en sistemas de gestión empresarial, incluyendo migración a microservicios con GRPC, optimización de bases de datos PostgreSQL, y automatización de infraestructura AWS que redujo tiempos de despliegue en un 85. Domino el stack completo: Node.js, TypeScript, Docker, AWS, y bases de datos relacionales.Mi enfoque combina resolución de problemas técnicos complejos con impacto directo en producción, contribuyendo tanto al desarrollo backend como a decisiones de arquitectura.Actualmente estudiando Tecnología en Desarrollo de Software en Universidad del Valle.",
+    "Desarrollador Backend especializado en arquitecturas escalables y sistemas en producción. Con experiencia comprobada liderando implementaciones técnicas críticas en sistemas de gestión empresarial, incluyendo migración a microservicios con GRPC, automatización de infraestructura en la nube y optimización de bases de datos relacionales. Domino el stack completo: Node.js, TypeScript, Docker, AWS, y PostgreSQL. Poseo alta versatilidad en SQL, desde diseño de esquemas eficientes hasta consultas complejas optimizadas. Mi enfoque combina resolución de problemas técnicos complejos con impacto directo en producción, contribuyendo tanto al desarrollo backend como a decisiones de arquitectura. Actualmente estudiando Tecnología en Desarrollo de Software en Universidad del Valle.",
 
   experience: [
     {
