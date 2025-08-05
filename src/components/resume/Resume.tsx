@@ -15,7 +15,6 @@ import {
   FileText,
   Link,
   ExternalLink,
-  Github,
   LucideIcon
 } from 'lucide-react';
 import { cvData } from '@/data/cv.data';
@@ -136,7 +135,6 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ exp }) => (
           rel="noopener noreferrer"
           className="inline-flex items-center text-sm text-slate-600 hover:text-slate-900 font-medium transition-colors duration-200 group"
         >
-          <Github className="h-4 w-4 mr-1.5 group-hover:scale-110 transition-transform" />
           Código
         </a>
       )}
