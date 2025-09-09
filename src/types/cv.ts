@@ -9,57 +9,28 @@ export interface CvData {
     location: string;
   };
   summary: string;
-  experience: Array<{
-    role: string;
-    period: string;
-    company: string;
-    location: string;
-    tags?: string[],
-    achievements: string[];
-    repoLink?: string,
-    linkedinLink?: string
-  }>;
-  education: Array<{
-    degree: string;
-    period: string;
-    institution: string;
-  }>;
+  experience: Experience[];
+  education: EducationSkill[];
   skills: {
-    cloud: Array<{
-      name: string,
-      level: string
-    }>,
-    languages: Array<{
-      name: string,
-      level: string
-    }>,
-    backend: Array<{
-      name: string,
-      level: string
-    }>,
-    documentation: Array<{
-      name: string,
-      level: string
-    }>,
-    integrations: Array<{
-      name: string,
-      level: string
-    }>,
-    databases: Array<{
-      name: string,
-      level: string
-    }>,
-    tools: Array<{
-      name: string,
-      level: string
-    }>,
+    cloud: Skill[],
+    languages: Skill[],
+    backend: Skill[],
+    documentation: Skill[],
+    integrations: Skill[],
+    databases: Skill[],
+    tools: Skill[],
   };
 }
 
-
 export interface Skill {
   name: string;
-  level: string;
+  level?: string;
+}
+
+interface EducationSkill {
+  degree: string,
+  period: string,
+  institution: string
 }
 
 export interface Experience {
