@@ -57,10 +57,9 @@ export default function Resume() {
               <div className="space-y-2 mb-6">
                 <h2 className="text-xl lg:text-2xl font-semibold text-slate-200">Desarrollador Backend</h2>
                 <p className="text-slate-300 text-sm lg:text-base max-w-2xl mx-auto">
-                  Especializado en Node.js · TypeScript · Docker · AWS · Arquitecturas Escalables
+                  {cvData.title}
                 </p>
               </div>
-
               <div className="flex flex-wrap justify-center gap-6 text-sm">
                 <div className="flex items-center text-slate-300 hover:text-white transition-colors">
                   <Mail className="h-4 w-4 mr-2" />
