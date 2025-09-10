@@ -49,7 +49,7 @@ export const cvData: CvData = {
       location: "Remoto",
       tags: ["Typescript", "PostgreSQL", "Node.js", "Docker", "Telegram API"],
       achievements: [
-        "Desarrollé bot de Telegram para registrar y consultar entrenamientos, alcanzando +50 usuarios activos.",
+        "Desarrollé bot de Telegram para registrar y consultar entrenamientos, alcanzando +10 usuarios activos.",
         "Implementé autenticación y sesiones estilo Netflix para compartir progresos familiares.",
         "Optimicé PostgreSQL con consultas dinámicas por intervalos (diarios, semanales, mensuales)."
       ],
