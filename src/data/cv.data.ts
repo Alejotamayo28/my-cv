@@ -87,7 +87,7 @@ export const cvData: CvData = {
       { name: "API Design" },
     ],
     databases: [
-      { name: "PostgreSQL", level: "Avanzado" },
+      { name: "PostgreSQL" },
       { name: "Supabase" },
       { name: "Database Design" },
     ],
@@ -108,8 +108,8 @@ export const cvData: CvData = {
       { name: "Insomnia" },
     ],
     integrations: [
-      { name: "Payment Gateways", level: "Básico" },
-      { name: "Telegram API", level: "Intermedio" },
+      { name: "Payment Gateways" },
+      { name: "Telegram API" },
     ]
   }
 };
