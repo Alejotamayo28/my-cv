@@ -12,7 +12,7 @@ export const cvData: CvData = {
   experience: [
     {
       role: "Desarrollador Backend",
-      period: "2025 - Actualidad",
+      period: "2025 - 2025",
       company: "Zapenu (startup en crecimiento)",
       location: "Remoto",
       tags: [
