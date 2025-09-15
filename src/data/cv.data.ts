@@ -13,7 +13,7 @@ export const cvData: CvData = {
     {
       role: "Desarrollador Backend",
       period: "2025 - 2025",
-      company: "Zapenu (startup en crecimiento)",
+      company: "Zapenu (startup)",
       location: "Remoto",
       tags: [
         "TypeScript", "Node.js", "Express", "Tsoa", "PostgreSQL", "Supabase", "AWS", "VPS", "Docker", "Cloudflare", "gRPC", "Swagger", "Microservicios"
@@ -31,7 +31,7 @@ export const cvData: CvData = {
     },
     {
       role: "Desarrollador Backend - Proyecto Personal",
-      period: "2024",
+      period: "2024 - 2025",
       company: "Plataforma de Despliegue Automatizado",
       location: "Remoto",
       tags: ["Typescript", "Node.js", "AWS", "Docker", "Cloudflare Workers", "Telegram API"],
@@ -44,7 +44,7 @@ export const cvData: CvData = {
     },
     {
       role: "Desarrollador Backend - Proyecto Personal",
-      period: "2024",
+      period: "2024 - 2024",
       company: "FitTracker: Asistente de Gimnasio",
       location: "Remoto",
       tags: ["Typescript", "PostgreSQL", "Node.js", "Docker", "Telegram API"],
